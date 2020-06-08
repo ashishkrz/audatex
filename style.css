@@ -1,0 +1,186 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Remove the navbar's default margin-bottom and rounded borders */
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+.navbar-custom-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar-brand {
+  padding: 0.8rem 2rem;
+}
+
+.navbar-brand>img {
+  height: 40px;
+}
+
+.navbar-right {
+  float: right;
+}
+
+.glyphicon {
+  font-size: 20px;
+  color: gray;
+}
+
+.row.content {
+  height: 86vh;
+}
+
+.side-nav {
+  height: 85vh;
+  margin: 1.5rem 0 1.5rem 2rem;
+  box-shadow: -4px 5px 20px rgba(0, 0, 0, 0.3);
+  border-radius: 0.5rem;
+  padding-top: 5rem;
+}
+
+div.side-nav>ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+div.side-nav>ul>li>a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 10px 16px;
+  margin-bottom: 10px;
+  text-decoration: none;
+  transition: 0.4s all;
+  border-left: 6px solid transparent;
+}
+
+div.side-nav>ul>li>a:hover {
+  color: orange;
+  background-color: #f0f0f0;
+}
+
+div.side-nav>ul>li>a.active {
+  color: orange;
+  border-left: 6px solid orange;
+  background-color: #f0f0f0;
+}
+
+.vertically-aligned {
+  line-height: 3rem;
+}
+
+.main-content {
+  height: 85vh;
+  margin: 1.5rem 2rem 1.5rem 0;
+  box-shadow: -2px 5px 10px rgba(0, 0, 0, 0.3);
+  border-radius: 0.5rem;
+  border-top: 5px solid orange;
+}
+
+div.main-content>div.row>div {
+  padding: 20px 30px;
+}
+
+label {
+  font-weight: 100;
+}
+
+.custom-button,
+.custom-button:hover {
+  background-color: orange;
+  border-color: orange;
+  border-radius: 0;
+  width: 90px;
+  font-size: 16px;
+}
+
+.navigate-page {
+  position: absolute;
+  right: 6rem;
+  bottom: 5.2rem;
+}
+
+footer {
+  text-align: center;
+}
+
+.zero-right-pad {
+  padding-right: 0 !important;
+}
+
+.zero-left-pad {
+  padding-left: 0 !important;
+}
+
+.brand-color {
+  color: orange;
+}
+
+.red-content {
+  color: red;
+}
+
+/* Timeline css */
+
+ul.timeline {
+  list-style-type: none;
+  position: relative;
+}
+
+ul.timeline:before {
+  content: ' ';
+  background: #f5f5f5;
+  display: inline-block;
+  position: absolute;
+  left: 25px;
+  width: 6px;
+  height: 100%;
+  z-index: 400;
+}
+
+ul.timeline>li {
+  margin: 20px 0;
+  padding-left: 20px;
+}
+
+ul.timeline>li:before {
+  content: ' ';
+  background: white;
+  display: inline-block;
+  position: absolute;
+  border-radius: 50%;
+  border: 4px solid orange;
+  left: 20px;
+  width: 16px;
+  height: 16px;
+  z-index: 400;
+}
+
+.name-date {
+  display: flex;
+  justify-content: space-between;
+}
+
+.custom-card {
+  padding: 7px;
+  padding-bottom: 1px;
+  border-radius: 7px;
+  background-color: #f8f8f8;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+.top-margin-card {
+  margin-top: -22px;
+}
+
+.custom-card a {
+  color: gray;
+  text-decoration: underline;
+}

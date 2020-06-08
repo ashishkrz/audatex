@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Audatex Assignment - Template</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <nav class="navbar">
+    <div class="container-fluid">
+      <div class="navbar-custom-header">
+        <a class="navbar-brand" href="#">
+          <img src="./images/logo.png" />
+        </a>
+        <ul class="nav navbar-nav">
+          <li><a href="#"><span class="glyphicon glyphicon-home"></span></a></li>
+          <li><a href="#"><span class="glyphicon glyphicon-user"></span></a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container-fluid">
+    <div class="row content">
+      <div class="col-sm-2 col-lg-2">
+        <div class="side-nav">
+          <ul>
+            <li><a class="active" href="#callDetails">Call Details</a></li>
+            <li><a href="#generalInfo">General Info</a></li>
+            <li><a href="#lastServiceDetails">Last Service Details</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-sm-10 col-lg-10 zero-left-pad">
+        <div class="main-content">
+          <div class="row">
+            <div class="col-sm-5 zero-right-pad">
+              <form>
+                <div class="row">
+                  <div class="col-sm-6">
+                    <div class="row form-group">
+                      <div class="col-sm-3">Contact:</div>
+                      <div class="col-sm-9">Gautam</div>
+                    </div>
+                  </div>
+                  <div class="col-sm-6">
+                    <div class="row form-group">
+                      <div class="col-sm-4">Designation:</div>
+                      <div class="col-sm-8">MD</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-sm-6">
+                    <div class="row form-group">
+                      <label for="phone" class="col-sm-3 col-form-label vertically-aligned">Phone:</label>
+                      <div class="col-sm-9">
+                        <select class="form-control" id="phone">
+                          <option>8130227980</option>
+                          <option>8866554433</option>
+                        </select>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-6">
+                    <div class="row form-group">
+                      <div class="col-sm-2">Call</div>
+                      <div class="col-sm-10">
+                        <a href="#"><span class="glyphicon glyphicon-phone red-content"></span></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-sm-12 form-group">
+                    <label for="serviceType">Service Type<span class="red-content">*</span></label>
+                    <select class="form-control" id="serviceType">
+                      <option>None</option>
+                      <option>Option 1</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-sm-12 form-group">
+                    <label for="comments">Comments<span class="red-content">*</span></label>
+                    <textarea class="form-control" id="comments" rows="6"></textarea>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-sm-6 form-group">
+                    <label for="nextCall">Next Call<span class="red-content">*</span></label>
+                    <input class="form-control" type="datetime-local" id="nextCall">
+                  </div>
+                  <div class="col-sm-6 form-group">
+                    <label for="purpose">Purpose<span class="red-content">*</span></label>
+                    <select class="form-control" id="purpose">
+                      <option>None</option>
+                      <option>Option 1</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-sm-12">
+                    <button type="submit" class="btn btn-primary custom-button">Submit</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+            <div class="col-sm-7 zero-left-pad">
+              <div class="row">
+                <div class="col-sm-12">
+                  <ul class="timeline">
+                    <li>
+                      <div class="card custom-card top-margin-card">
+                        <div class="card-body">
+                          <div class="name-date">
+                            <p class="brand-color">Akansha Bisht</p>
+                            <p class="brand-color">14-05-2020 05:38:58</p>
+                          </div>
+                          <p><a href="#">Payment</a> - Follow on regarding payment</p>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="card custom-card">
+                        <div class="card-body">
+                          <div class="name-date">
+                            <p class="brand-color">Akansha Bisht</p>
+                            <p class="brand-color">14-05-2020 05:33:19</p>
+                          </div>
+                          <p><a href="#">Choose...</a> - Follow on regarding payment</p>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="card custom-card">
+                        <div class="card-body">
+                          <div class="name-date">
+                            <p class="brand-color">Akansha Bisht</p>
+                            <p class="brand-color">14-05-2020 05:22:48</p>
+                          </div>
+                          <p><a href="#">Choose...</a> - essrtyy</p>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="card custom-card">
+                        <div class="card-body">
+                          <div class="name-date">
+                            <p class="brand-color">Akansha Bisht</p>
+                            <p class="brand-color">04-05-2020 07:37:07</p>
+                          </div>
+                          <p><a href="#">Follow-on</a> - Next payment</p>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="card custom-card">
+                        <div class="card-body">
+                          <div class="name-date">
+                            <p class="brand-color">Kanika Sethi</p>
+                            <p class="brand-color">30-04-2020 16:54:35</p>
+                          </div>
+                          <p><a href="#">Payment</a> - Next payment</p>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row navigate-page">
+      <div class="col">
+        <div class="btn-group" role="group" aria-label="Navigation">
+          <button type="button" class="btn btn-default" disabled>First</button>
+          <button type="button" class="btn btn-default">Next</button>
+          <button type="button" class="btn btn-default" disabled>Previous</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="container-fluid">
+    <p>Copyright &copy; 2020 &nbsp;<span class="brand-color">Audatex</span></p>
+  </footer>
+
+</body>
+
+</html>
